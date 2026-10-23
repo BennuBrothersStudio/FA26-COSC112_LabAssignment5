@@ -1,9 +1,7 @@
 // import statements
 
 import java.util.Scanner;
-
 public class PrimeNumberScanner {
-
     // A prime is an integer greater than 1 whose only factors are 1 and itself.
     public static boolean isPrime(int n) {
         if (n <= 1) {
@@ -23,7 +21,6 @@ public class PrimeNumberScanner {
         }
         return true;
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number;
